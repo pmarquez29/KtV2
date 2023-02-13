@@ -3,7 +3,7 @@
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class ="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
 
-            <fileNamePattern>/Users/User/OneDrive/Escritorio/Greco/2023/Arquitectura de Software/Logs/logsKt.%d{dd-MM-yyyy}.%i.txt</fileNamePattern>
+            <fileNamePattern>/Users/User/OneDrive/Escritorio/Greco/2023/Arquitectura de Software/Kt/logsKt.%d{dd-MM-yyyy}.%i.txt</fileNamePattern>
             <maxFileSize>1000Kb</maxFileSize>
         </rollingPolicy>
             <encoder>
